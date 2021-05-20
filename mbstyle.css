@@ -23,12 +23,7 @@ div {
   background-color: rgb(216, 233, 240);    
   box-shadow: 8px 8px grey;
 }
-.f{
-  border: 3px outset rgb(87, 86, 86);
-  background-color: rgb(216, 233, 240);    
-  box-shadow: 10px 10px grey;
-  
-}
+
 .u{
   width: 60%;
   margin: 5%;
