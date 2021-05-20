@@ -58,14 +58,7 @@ img:hover {
   width:12%;
   height:7px;
   outline: none;
-  border-radius:3px;
+  border-radius:5px;
 
-}
-#slider::-webkit-slider-thumb{
-  -webkit-appearance: none;
-  width: 48px;
-  height: 48px;
-  cursor:pointer;
-  z-index:3;
-  position: relative;
+
 }
