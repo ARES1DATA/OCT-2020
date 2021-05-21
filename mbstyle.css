@@ -50,14 +50,44 @@ img:hover {
 }
 #slider{
  
-  width:12%;
+  width:9%;
   height:7px;
   outline: none;
-  border-radius:5px;
+  border-radius:8px;
 
 
 }
+
+.slider {
+  width: 15%;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 15%;
+  height: 10px;
+  margin-top: 0%;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider:hover {
+  opacity: 5;
+}
+
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #48d1e9;
+  cursor: pointer;
+}
+
 .a { 
   word-spacing: 4cm;
 }
-
