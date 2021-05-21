@@ -31,7 +31,7 @@
           
                     
                 </div>               
-                <p class="a"><b>PLAN</b><span style="color: white">I</span>: <span ><b>TECHNOLOGY</b><span style="color: white">I</span>:</span> <span><b>DEVICE</b><span style="color: white">I</span><b>TYPE</b><span style="color: white">I</span>:</p>
+                <p class="a"><b>PLAN</b><span style="color: white">I</span>: <span ><b>TECHNOLOGY</b><span style="color: white">I</span>:</span> <span><b>DEVICE</b><span style="color: white">I</span><b>TYPE</b><span style="color: white">I</span>: <sapn><b style="font-size:20">USAGE</b>:<span style="color: white">I</span></sapn><span style="font-size:23" id="demo"></span><span>%</span></p>
                 <label id="plan" name="plan"></label><select multiple id="plan" name="plan" >
                                 <option value="0">-All-</option>
                                 <option value="1">$20 Unlimited Talk</option>
@@ -54,7 +54,7 @@
                                 </select>
                                 
                                 
-                                <label for="device"><b style="color: white">DEVICE</b><span style="color: white">i</span><b style="color: white">DEVICETY</b><span style="color: white">i</span></label><select  multiple  id="device" name="device">
+                                <label for="device"><b style="color: white">DEVICE </b><span style="color: white">i</span><b style="color: white">DEVICETY</b><span style="color: white">i</span></label><select  multiple  id="device" name="device">
                                     <option value="0">-All-</option>
                                     <option value="1">Basic Phone</option>
                                     <option value="2">Android Phone</option>
@@ -64,9 +64,17 @@
                                                            
                            
                                 
-                                 <span style="color: white">jjjjjjj</span>  <label for="USAGE"><b magin =10%>USAGE</b><span style="color: white">i</span>
-                                    <span style="color: black">:</span><span style="color: white">i</span><span>-10%</span><input type="range" id="slider" name="slider"></label><span>+10%</span>
-                                                             
+                                        <b style="color: white">DEVICE </b><input type="range" min="-10" max="10" value="0" class="slider" id="myRange" class="percent" readonly>
+                                        
+                                    <script>
+                                        var slider = document.getElementById("myRange");
+                                        var output = document.getElementById("demo");
+                                        output.innerHTML = slider.value;
+                                        
+                                        slider.oninput = function() {
+                                          output.innerHTML = this.value;
+                                        }
+                                        </script>                     
                 </div>                                     
                             
                                 <br>
