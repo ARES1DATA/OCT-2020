@@ -94,3 +94,9 @@ img:hover {
 #tech{
   width: 130px;
 }
+
+.column1 {
+  float: left;
+  width: 43.33%;
+  padding: 70px;
+}
